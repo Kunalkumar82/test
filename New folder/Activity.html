@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main
+        {
+            display: grid;
+            grid-template-columns: 13cm 13cm 13cm;
+            grid-template-rows: 3cm 3cm 3cm 2cm;
+            text-align: center;
+            row-gap: 20px;
+            column-gap: 20px;
+        }
+
+    .d1
+    {
+        background-color: green;
+        align-content: center;
+        grid-column: 1/4;
+        text-align: center;
+    }
+    .d2
+    {
+        background-color: whitesmoke;
+    
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        align-content:center;
+        text-align:left;
+        grid-column: 1/2;
+       
+
+        grid-row: 2/3;
+    }
+    .d3
+    {
+        background-color: whitesmoke;
+        align-content:center;
+        border-radius: 5px;
+        text-align: left;
+        grid-column: 3/4;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        grid-row: 2/3;
+    }
+    .d4
+    {
+        background-color: whitesmoke;
+        align-content:center;
+        border-radius: 5px;
+        text-align: left;
+        grid-column:1/2 ;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+        grid-row:3/4 ;
+    }
+    .d5
+    {
+        background-color:black;
+        align-content:center;
+        color: white;
+        text-align: center;
+        grid-column: 1/4;
+        grid-row: 4/5;
+    }
+    </style>
+</head>
+<body>
+   <div class="main">
+    <div class="d1"><h1>Welcome To Your Website Task</h1>
+<p> Home &nbsp;&nbsp;&nbsp; About &nbsp;&nbsp;&nbsp; Contact </p></div>
+    <div class="d2"><h2><span style="color: green;">About CSS</span></h2><p>Cascading Style Sheets allow you to style and layout your web pages, adding colors, spacing, and more.</p></div>
+    <div class="d3"><h2><span style="color : green;">Box Model</span></h2><p>The CSS box model describe the rectangular boxes generate for elements.it include margines,border,padding and actual content.</p></div>
+    <div class="d4"><h2><span style="color:green">Responsive Design</span></h2><p>Responsive design ensure your webpage locks great on all devices.From destop to mobile phones.</p></div>
+    <div class="d5"><h4>Created by [Student Name] | Follow us on <span style="color: green;">Instagram</span> | <span style="color: green;">Twitter</span> | <span style="color: green;">LinkedIn</span></h4></div>
+    
+   </div> 
+</body>
+</html>
